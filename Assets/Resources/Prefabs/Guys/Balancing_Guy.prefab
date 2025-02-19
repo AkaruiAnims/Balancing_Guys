@@ -100,3 +100,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268783a7991bc5b9e9978d83eb3707f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Left_Connector: {x: 0, y: 0}
+  Right_Connector: {x: 0, y: 0}
+  Bottom_Connector: {x: 0, y: 0}
+  Left_Connector_Enabled: 0
+  Right_Connector_Enabled: 0
+  spritePrefix: 
+  guyCount: 0
+  spriteRenderer: {fileID: 0}

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a4b2e2d39e19678028bc0f378f4f59cc
+guid: b52eda08e72d8ec3ab6a5b9c0c9b4eaa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6794552427243467453
-    second: Buff guy1_0
+      213: 5812866961259036111
+    second: Buff guy2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,10 +113,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Buff guy1_0
+      name: Buff guy2_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
         width: 121
         height: 95
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 34d82660196e4b1a0800000000000000
-      internalID: -6794552427243467453
+      spriteID: fcdf27014b37ba050800000000000000
+      internalID: 5812866961259036111
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Buff guy2_0: 5812866961259036111
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

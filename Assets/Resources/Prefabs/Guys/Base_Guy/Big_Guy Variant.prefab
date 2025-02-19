@@ -10,15 +10,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5286043431413918230, guid: 1be81dc302b3a0128ad6ac2e21382b07, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.7044713
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5286043431413918230, guid: 1be81dc302b3a0128ad6ac2e21382b07, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.382315
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5286043431413918230, guid: 1be81dc302b3a0128ad6ac2e21382b07, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.04853639
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5286043431413918230, guid: 1be81dc302b3a0128ad6ac2e21382b07, type: 3}
       propertyPath: m_LocalRotation.w
@@ -81,6 +81,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268783a7991bc5b9e9978d83eb3707f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Left_Connector: {x: 0, y: 0}
+  Right_Connector: {x: 0, y: 0}
+  Bottom_Connector: {x: 0, y: 0}
+  Left_Connector_Enabled: 0
+  Right_Connector_Enabled: 0
+  spritePrefix: 
+  guyCount: 0
+  spriteRenderer: {fileID: 0}
+  isPredefined: 1
 --- !u!212 &7646915959532790305
 SpriteRenderer:
   m_ObjectHideFlags: 0
