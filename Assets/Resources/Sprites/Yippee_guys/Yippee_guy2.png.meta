@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b22856948245d65ca97754f93693d91b
+guid: 1a18c84dc034feb7c8616afca7878a79
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9138421273190495944
-    second: Yippee pose guy1_0
+      213: -1410022525482598853
+    second: Yippee pose guy2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Yippee pose guy1_0
+      name: Yippee pose guy2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8398b9bf44ecd2180800000000000000
-      internalID: -9138421273190495944
+      spriteID: b3e7f43dbf79e6ce0800000000000000
+      internalID: -1410022525482598853
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Yippee pose guy2_0: -1410022525482598853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

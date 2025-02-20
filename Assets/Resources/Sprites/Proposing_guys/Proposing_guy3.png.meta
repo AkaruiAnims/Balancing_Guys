@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dc0722b335c111c41bb85bad978e71ea
+guid: 94ff9d3844f0b2aa693236e9ee76414e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7275756874417820321
-    second: Karate pose guy3_0
+      213: -4048655193332635358
+    second: Proposing dude3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Karate pose guy3_0
+      name: Proposing dude3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 96
-        height: 105
+        width: 50
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a2d7c3245ea8f460800000000000000
-      internalID: 7275756874417820321
+      spriteID: 2292e576d8940d7c0800000000000000
+      internalID: -4048655193332635358
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Proposing dude3_0: -4048655193332635358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
