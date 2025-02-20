@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c153fe036d68e04af9f41c35c3df8c70
+guid: 44db93287f0d6d34a967a811edd856ea
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8624411270480023171
-    second: Humongous_guy_0
+      213: 8030455178820255727
+    second: Dropper2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Humongous_guy_0
+      name: Dropper2_0
       rect:
         serializedVersion: 2
-        x: 34
+        x: 29
         y: 0
-        width: 1537
-        height: 566
+        width: 107
+        height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38e46dd3b5010b770800000000000000
-      internalID: 8624411270480023171
+      spriteID: feff64e1078e17f60800000000000000
+      internalID: 8030455178820255727
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Humongous_guy_0: 8624411270480023171
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
