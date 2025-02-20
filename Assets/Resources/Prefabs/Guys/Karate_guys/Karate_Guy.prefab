@@ -12,6 +12,14 @@ PrefabInstance:
       propertyPath: spritePrefix
       value: Karate
       objectReference: {fileID: 0}
+    - target: {fileID: 1457991203968571570, guid: ce375696c4a526fd4abeb08b66224430, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 1457991203968571570, guid: ce375696c4a526fd4abeb08b66224430, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.05
+      objectReference: {fileID: 0}
     - target: {fileID: 5355124461699137222, guid: ce375696c4a526fd4abeb08b66224430, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.62
@@ -56,6 +64,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1265903065959808533, guid: 3815293cf499f56a0b648a1f89eaaf8a, type: 3}
+    - target: {fileID: 7839346678534896462, guid: ce375696c4a526fd4abeb08b66224430, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839346678534896462, guid: ce375696c4a526fd4abeb08b66224430, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.05
+      objectReference: {fileID: 0}
     - target: {fileID: 8015819557687396383, guid: ce375696c4a526fd4abeb08b66224430, type: 3}
       propertyPath: m_Name
       value: Karate_Guy
