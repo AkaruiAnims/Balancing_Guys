@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3622818300502527315, guid: 1be81dc302b3a0128ad6ac2e21382b07, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 83ea79bd62eb94443bd821fb24aa3f91, type: 3}
+    - target: {fileID: -3622818300502527315, guid: 1be81dc302b3a0128ad6ac2e21382b07, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 83ea79bd62eb94443bd821fb24aa3f91, type: 3}
     - target: {fileID: 5286043431413918230, guid: 1be81dc302b3a0128ad6ac2e21382b07, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -50,7 +58,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7797732370021637327, guid: 1be81dc302b3a0128ad6ac2e21382b07, type: 3}
       propertyPath: m_Name
-      value: Big_Guy Variant
+      value: Big_Guy
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 604371485060174804, guid: 1be81dc302b3a0128ad6ac2e21382b07, type: 3}
@@ -84,11 +92,14 @@ MonoBehaviour:
   Left_Connector: {x: 0, y: 0}
   Right_Connector: {x: 0, y: 0}
   Bottom_Connector: {x: 0, y: 0}
+  Top_Connector: {x: 0, y: 0}
   Left_Connector_Enabled: 0
   Right_Connector_Enabled: 0
+  Top_Connector_Enabled: 0
   spritePrefix: 
   guyCount: 0
-  spriteRenderer: {fileID: 0}
+  scoreCount: {fileID: 0}
+  audioData: {fileID: 0}
   isPredefined: 1
 --- !u!212 &7646915959532790305
 SpriteRenderer:
