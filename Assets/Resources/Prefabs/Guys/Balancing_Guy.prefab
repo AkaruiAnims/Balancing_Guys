@@ -112,6 +112,10 @@ MonoBehaviour:
   guyCount: 0
   scoreCount: {fileID: 0}
   audioData: {fileID: 0}
+  sounds:
+  - {fileID: 8300000, guid: ccbdb7fe2a120054f851690aa2aa373f, type: 3}
+  - {fileID: 8300000, guid: e4445a5e46888fa4e8e2b97ac3625356, type: 3}
+  - {fileID: 8300000, guid: 83ea79bd62eb94443bd821fb24aa3f91, type: 3}
   isPredefined: 0
 --- !u!82 &-3622818300502527315
 AudioSource:

@@ -19,6 +19,8 @@ public class Balancing_Guy : MonoBehaviour
     public TextMeshProUGUI scoreCount; 
 
     public AudioSource audioData;
+    public AudioClip[] sounds;
+    int spawnYPos;
 
     public bool isPredefined = false;
 
@@ -32,17 +34,18 @@ public class Balancing_Guy : MonoBehaviour
             LoadSprite();
             scoreCount = GameObject.Find("Count").GetComponent<TextMeshProUGUI>();
             audioData = GetComponent<AudioSource>();
+            spawnYPos = (int)gameObject.transform.position.y;
         }
     }
 
     // Update is called once per frame
     void Update()
     {   
-        if (transform.position.y < -1.8 && !hasDropped) 
+        if (transform.position.y > spawnYPos-1 && !hasDropped && !isPredefined) 
         {
             hasDropped = true;
             updateScore(true);
-            Debug.Log("Dropped " + scoreCount.text);
+            // Debug.Log("Dropped " + scoreCount.text);
         }
 
         if (transform.position.y < -6)
@@ -75,9 +78,11 @@ public class Balancing_Guy : MonoBehaviour
     void updateScore(bool bump = false)
     {
         if ( bump == true){
+            int soundToPlay = Random.Range(0,3);
             int score = int.Parse(scoreCount.text);
             score++;
             scoreCount.text = score.ToString();
+            audioData.resource = sounds[soundToPlay];
             audioData.Play(0);
         }
         else
