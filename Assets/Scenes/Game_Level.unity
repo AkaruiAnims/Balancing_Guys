@@ -808,6 +808,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1255748609347265920, guid: 22bcc998ee5a42349958f67b6af89280, type: 3}
+      propertyPath: isStatic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1255748609347265920, guid: 22bcc998ee5a42349958f67b6af89280, type: 3}
       propertyPath: audioData
       value: 
       objectReference: {fileID: 1214548722}
@@ -841,7 +845,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7025453232054719284, guid: 22bcc998ee5a42349958f67b6af89280, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.02
+      value: -2.08
       objectReference: {fileID: 0}
     - target: {fileID: 7025453232054719284, guid: 22bcc998ee5a42349958f67b6af89280, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1398,6 +1402,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 519420028}
+  CraneFather: {fileID: 975909745}
+  Dropper: {fileID: 1831515703}
+  Text: {fileID: 615163451}
 --- !u!61 &1531174886
 BoxCollider2D:
   m_ObjectHideFlags: 0

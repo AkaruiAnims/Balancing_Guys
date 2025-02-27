@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEditor.Callbacks;
+using UnityEngine.UIElements;
 public class Balancing_Guy : MonoBehaviour
 {
     // might change these to gameobjects later to move the connectors around and get on collision events
@@ -21,6 +22,7 @@ public class Balancing_Guy : MonoBehaviour
     public AudioSource audioData;
     public AudioClip[] sounds;
     int spawnYPos;
+    public bool isStatic;
 
     public bool isPredefined = false;
 
@@ -47,6 +49,8 @@ public class Balancing_Guy : MonoBehaviour
             updateScore(true);
             // Debug.Log("Dropped " + scoreCount.text);
         }
+
+    if ( isStatic ) transform.position = new Vector2(transform.position.x, spawnYPos); 
 
         if (transform.position.y < -6)
         {
